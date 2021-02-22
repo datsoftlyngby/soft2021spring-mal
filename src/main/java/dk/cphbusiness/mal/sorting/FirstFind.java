@@ -46,11 +46,6 @@ public class FirstFind implements UnionFind {
     }
 
   @Override
-  public boolean connected(int p, int q) {
-    return find(p) == find(q);
-    }
-
-  @Override
   public int count() {
     return count;
     }
