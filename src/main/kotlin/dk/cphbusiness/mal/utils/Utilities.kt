@@ -28,3 +28,4 @@ fun doubleRatioExperiment(number: Int = 1, algorithm: (Int) -> Unit) = sequence 
     t = time
     }
   }
+

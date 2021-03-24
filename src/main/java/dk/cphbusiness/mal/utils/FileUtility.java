@@ -14,6 +14,7 @@ public class FileUtility {
    * <code>
    * String[] words =
    *     FileUtility.toStringArray("PathToTheFile.txt", "[^A-Za-z']+");
+   *     "It's" "good" "to" "learn" "math"! "Please" "follow" "these" "rules": ... !!"
    * </code>
    *
    * @param path The path to the file to read
