@@ -18,7 +18,7 @@ public class MappedState implements State {
 
   @Override
   public ValueSet valuesOf(String variableName) {
-    return null;
+    return variables.get(variableName);
     }
 
   @Override
